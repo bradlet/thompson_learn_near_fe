@@ -12,15 +12,18 @@
   align-items: center;
 }
 
-.nft_preview {
-  border: 1px solid blue;
-}
-
 .bread {
   position: absolute;
-  width: 100px;
-  height: 100px;
-  background-color: pink;
+  width: 90%;
+  height: 90%;
+}
+
+.back_bread {
+  margin: 0 10% 0 0;
+}
+
+.front_bread {
+  margin: 10% 0 0 10%;
 }
 
 .main {
