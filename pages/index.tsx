@@ -17,8 +17,8 @@ const Home: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
         <div className={`${styles.container} ${styles.container_box}`}>
-            <img className={`${styles.bread} ${styles.back_bread}`} src="/ShittyBread.svg" alt="Bread"/>
-            <img className={`${styles.bread} ${styles.front_bread}`} src="/ShittyBread.svg" alt="Bread"/>
+          <img className={`${styles.bread} ${styles.back_bread}`} src="/ShittyBread.svg" alt="Bread"/>
+          <img className={`${styles.bread} ${styles.front_bread}`} src="/ShittyBread.svg" alt="Bread"/>
         </div>
       </main>
 
