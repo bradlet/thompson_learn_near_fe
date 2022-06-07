@@ -16,6 +16,9 @@ const Home: NextPage = () => {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <div className={`${styles.container} ${styles.container_box}`}>
+          <div id="square"/>
+        </div>
       </main>
 
       <footer className={styles.footer}>
