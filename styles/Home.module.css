@@ -7,23 +7,33 @@
   border: 5px solid black;
   min-height: 50vh;
   min-width: 50vw;
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
-.bread {
+.nft_trait {
   position: absolute;
   width: 90%;
   height: 90%;
 }
 
 .back_bread {
-  margin: 0 10% 0 0;
+  /* margin: 0 10% 0 0; */
+  top: 0px;
+  left: 0px;
 }
 
 .front_bread {
-  margin: 10% 0 0 10%;
+  /* margin: 10% 0 0 10%; */
+  top: 50px;
+  left: 50px;
+}
+
+.filling_1 {
+  top: -50px;
+  left: 40px;
+  transform: rotate(-30deg) scaleX(-1);
 }
 
 .main {
