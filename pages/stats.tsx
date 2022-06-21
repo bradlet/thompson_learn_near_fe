@@ -2,6 +2,7 @@ import type { NextPage } from 'next';
 import type { ApiData } from './api/hello';
 import { useEffect, useState } from 'react';
 import styles from '../styles/Stats.module.css';
+import DisplayStats from '../components/DisplayStats';
 
 const Stats: NextPage = () => {
     const [data, setData] = useState<ApiData | null>(null)
@@ -26,6 +27,9 @@ const Stats: NextPage = () => {
               <h1>Stat Overview</h1>
             </div>
         <h2>{data.name}</h2>
+        <div>
+            <DisplayStats />
+        </div>
       </div>
     )
 }
