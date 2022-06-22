@@ -1,7 +1,8 @@
+import type { ApiData } from '../pages/api/hello';
 
-const DisplayStats = (ApiData) => {
+const DisplayStats = ({name}: ApiData) => {
     return (
-        <div>Hello</div>
+        <div>Hello {name}</div>
     );
 }
 

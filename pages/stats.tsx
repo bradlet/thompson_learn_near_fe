@@ -28,7 +28,7 @@ const Stats: NextPage = () => {
             </div>
         <h2>{data.name}</h2>
         <div>
-            <DisplayStats />
+            <DisplayStats {...data}/>
         </div>
       </div>
     )
