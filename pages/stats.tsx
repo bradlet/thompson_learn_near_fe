@@ -3,6 +3,7 @@ import type { ApiData } from './api/hello';
 import { useEffect, useState } from 'react';
 import styles from '../styles/Stats.module.css';
 import DisplayStats from '../components/DisplayStats';
+import Link from 'next/link';
 
 const Stats: NextPage = () => {
     const [data, setData] = useState<ApiData | null>(null)
@@ -23,8 +24,9 @@ const Stats: NextPage = () => {
   
     return (
       <div className={styles.stat_overview}>
-          <div className={`${styles.page_title} ${styles.has_border}`}>
+          <div className={`page_title bottom_border`}>
               <h1>Stat Overview</h1>
+              <Link href="/"><a className='header_link'>Return to Home page</a></Link>
             </div>
         <h2>{data.name}</h2>
         <div>

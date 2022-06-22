@@ -1,16 +1,7 @@
-.page_title {
-    display: block;
-    width: 100%;
-}
-
 .stat_overview {
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-.has_border {
-    border-bottom: 1px solid #000000;
 }
