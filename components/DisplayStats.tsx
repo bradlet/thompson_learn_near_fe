@@ -1,4 +1,4 @@
-import type { ApiData } from '../pages/api/hello';
+import type { ApiData } from '../pages/api/mockWeb3Api';
 
 const DisplayStats = ({name}: ApiData) => {
     return (

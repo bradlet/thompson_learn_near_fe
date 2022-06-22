@@ -1,5 +1,5 @@
 import type { NextPage } from 'next';
-import type { ApiData } from './api/hello';
+import type { ApiData } from './api/mockWeb3Api';
 import { useEffect, useState } from 'react';
 import styles from '../styles/Stats.module.css';
 import DisplayStats from '../components/DisplayStats';
@@ -11,7 +11,7 @@ const Stats: NextPage = () => {
 
     useEffect(() => {
         setLoading(true)
-        fetch('api/hello')
+        fetch('api/mockWeb3Api')
             .then((res) => res.json())
             .then((data) => {
                 setData(data)
